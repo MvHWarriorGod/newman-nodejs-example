@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "5d67f6c9-c554-4dbb-8501-6dd24d6eb1e3",
+		"name": "Script",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24779281"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/{{path}}/{{id}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"{{path}}",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

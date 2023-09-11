@@ -1,0 +1,16 @@
+{
+  "name": "automatizacion-qa-newman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "delete": "node --max-old-space-size=8192 delete.js",
+    "get": "node --max-old-space-size=8192 get.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
